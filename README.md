@@ -1,6 +1,7 @@
 Olá,
 Este projeto apresenta uma página promocional, permitindo que os usuários se inscrevam para acessar os cursos oferecidos pela marca Alura+ e Alura Língua.
-Funcionalidades:
+
+## Funcionalidades:
 - Apresentação de informações sobre o Combo+.
 - Links para assinatura dos planos.
 - Detalhes sobre compatibilidade com diferentes dispositivos.
