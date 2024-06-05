@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --primary-color: #FFFFFF;
+    --secondary-color: #C0C0C0;
+    --tertiary-color: #EC2F46;
+    --quaternary-color: #F9F9F9; 
+    --background-color: #00030C;
+    --button-color: #167BF7;
+    --primary-font: "Inter", sans-serif;
+    --button-color-effect:#03346e;
+}    
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: var(--background-color);        
+    color: var(--primary-color);    
+    font-family: var(--primary-font);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.main {
+    background-image: url("assets/background.png");        
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__box {
+    margin: 0 6em;
+
+}
+
+.container__title {
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.container__image {
+    padding: 1.25em 0 2em 0;
+
+}
+
+.container__button {
+    background-color: var(--button-color);
+    text-decoration: none;
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    padding: 1em;
+    display: block;
+    margin-bottom: 1em;
+
+}
+
+.container__button:hover {
+    background-color: var(--button-color-effect);
+    color: var(--secondary-color);  
+    padding: 1.10em;  
+}
+
+.container__button--secondary {
+    background-color: transparent;
+    border: 0.125em solid var(--primary-color)
+
+}
+
+.container__notice {
+    font-size: 0.75rem;
+    color: var(--secondary-color);
+}
+
+.secondary__image {
+    width: 70%;
+    padding: 2em;
+}
+
+.secondary {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.secondary__title {
+    font-weight: 700;
+    font-size: 3em;
+    color: var(--primary-color);
+    margin-bottom: 0.25em;
+}
+
+.secondary__text {
+    color: var(--quaternary-color)
+}
+
+.container__button--tertiary {
+   display: inline-block;
+   margin-top: 1em;
+}
+
+.secondary__description {
+    padding: 2em;
+}
+
+.devices {
+    text-align: center;
+}
+
+.devices__title {
+    font-size: 3em;
+    color: var(--primary-color);
+}
+
+.devices__list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.devices__subtitle {
+    font-size: 2em;
+    color: var(--primary-color);
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer__logo {
+    margin: 4em 0 3em 0;
+}
+
+.footer__list {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    text-align: center;
+    margin: 0 10em 0 10em;
+    list-style-type: none;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: var(--primary-color);   
+    font-size: 1em
+}
+
+.footer__list-item a:hover {
+    color: var(--button-color);    
+}
+
+.footer__list-item a:active {
+    color: var(--tertiary-color);
+}
+
+.footer__text {
+    margin: 1.80em 7.5em 1.3em 7.5em;
+    color: var(--secondary-color);
+    font-size: 0.88em;
+}
