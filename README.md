@@ -8,13 +8,28 @@ Funcionalidades:
 
 ![image](https://github.com/deborasete/projeto-aluraplus/assets/170202982/21cc3562-c5fd-4683-9255-b9cee9420845)
 
-Ferramentas utilizadas:
-HTML
+## Ferramentas utilizadas: 
 
-CSS
+  
 
-Flex-box
+* HTML 
 
-Feito por:
-Débora Sete Acosta
-Linkedin: https://www.linkedin.com/in/debora-sete/
+  
+
+* CSS 
+
+  
+
+* Flex-box 
+
+  
+
+## Feito por: 
+
+  
+
+### Débora Sete Acosta 
+
+  
+
+### Linkedin: https://www.linkedin.com/in/debora-sete/ 
