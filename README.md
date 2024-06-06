@@ -13,7 +13,7 @@ Este projeto apresenta uma página promocional, permitindo que os usuários se i
 
   
 
-* HTML 
+* HTML5 
 
   
 
